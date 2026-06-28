@@ -148,8 +148,8 @@ Actions Taken:
 The distribution of users across experiment groups was checked.
 
 Findings:
-- Control Group: 693 users
-- Treatment Group: 715 users
+ - Control Group: 693 users
+ - Treatment Group: 715 users
 
 Conclusion:
 - The experiment groups are reasonably balanced, with only a small difference in user count. Therefore, the dataset is suitable for A/B   testing and comparison between groups.
@@ -193,13 +193,13 @@ Action Taken:
 
 ### Segment Distribution Across Groups
 
-- The distribution of key customer segments such as device type, region, and plan type was reviewed across the Control and Treatment groups using Excel filters.
+ - The distribution of key customer segments such as device type, region, and plan type was reviewed across the Control and Treatment groups using Excel filters.
 
  Findings:
-- Customer segments were found to be reasonably distributed across both experiment groups, with no major imbalance observed.
+ - Customer segments were found to be reasonably distributed across both experiment groups, with no major imbalance observed.
 
 Action Taken:
-- No corrective action was required as the segment distribution was balanced and suitable for experiment analysis.
+ - No corrective action was required as the segment distribution was balanced and suitable for experiment analysis.
 
 
 
