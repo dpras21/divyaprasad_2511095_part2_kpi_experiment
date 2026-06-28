@@ -152,7 +152,7 @@ Findings:
 - Treatment Group: 715 users
 
 Conclusion:
-The experiment groups are reasonably balanced, with only a small difference in user count. Therefore, the dataset is suitable for A/B testing and comparison between groups.
+- The experiment groups are reasonably balanced, with only a small difference in user count. Therefore, the dataset is suitable for A/B   testing and comparison between groups.
 
 
 
@@ -161,45 +161,45 @@ The experiment groups are reasonably balanced, with only a small difference in u
 The `user_id` column was checked for duplicate values using Excel filters and conditional formatting.
 
 Findings:
-8 duplicate user IDs were identified in the dataset.
+- 8 duplicate user IDs were identified in the dataset.
 
 Action Taken:
-Duplicate records were reviewed and found to be exact duplicates. These duplicate records were removed before analysis to avoid bias in experiment results.
+- Duplicate records were reviewed and found to be exact duplicates. These duplicate records were removed before analysis to avoid bias in experiment results.
 
 
 ### Invalid Binary Values Check
 
-The binary columns (`visited_landing_page`, `started_trial`, `completed_onboarding`, and `converted_to_paid`) were checked to ensure that they contained only valid binary values (0 or 1).
+- The binary columns (`visited_landing_page`, `started_trial`, `completed_onboarding`, and `converted_to_paid`) were checked to ensure that they contained only valid binary values (0 or 1).
 
 Findings:
-No invalid binary values were found. All records contained only valid values (0 and 1).
+- No invalid binary values were found. All records contained only valid values (0 and 1).
 
 Action Taken:
-No action was required as the data was already valid.
+- No action was required as the data was already valid.
 
 
 
 ### Outliers in Revenue Check
 
-The `revenue_30d` column was reviewed by sorting the values from highest to lowest and applying conditional formatting.
+- The `revenue_30d` column was reviewed by sorting the values from highest to lowest and applying conditional formatting.
 
 Findings:
-Several unusually high revenue values were identified as potential outliers. Examples include revenue values above 1000.
+- Several unusually high revenue values were identified as potential outliers. Examples include revenue values above 1000.
 
 Action Taken:
-These records were retained in the dataset because they may represent genuine high-value customers and are important for business analysis. The outliers were flagged for monitoring during analysis.
+- These records were retained in the dataset because they may represent genuine high-value customers and are important for business analysis. The outliers were flagged for monitoring during analysis.
 
 
 
 ### Segment Distribution Across Groups
 
-The distribution of key customer segments such as device type, region, and plan type was reviewed across the Control and Treatment groups using Excel filters.
+- The distribution of key customer segments such as device type, region, and plan type was reviewed across the Control and Treatment groups using Excel filters.
 
-Findings:
-Customer segments were found to be reasonably distributed across both experiment groups, with no major imbalance observed.
+ Findings:
+- Customer segments were found to be reasonably distributed across both experiment groups, with no major imbalance observed.
 
 Action Taken:
-No corrective action was required as the segment distribution was balanced and suitable for experiment analysis.
+- No corrective action was required as the segment distribution was balanced and suitable for experiment analysis.
 
 
 
